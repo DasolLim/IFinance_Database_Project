@@ -8,9 +8,9 @@ Java, JavaFX, and SQL
 
 ## Objective:
 - Create and maintain a project workbook
-  _ Understand the business and system requirement from an informal problem statement
-  _ Compose a use case diagram
-  _ Compose analysis class model
+  - Understand the business and system requirement from an informal problem statement
+  - Compose a use case diagram
+  - Compose analysis class model
     _ Entity
     _ Boundary
     _ Control objects
