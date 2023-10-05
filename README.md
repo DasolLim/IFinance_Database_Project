@@ -1,5 +1,30 @@
 # Database_Project
-SE2203 Assignment
+## Description:
+Western University Software Engineering Database Project
+Course: SE2203 Software Design
+
+## Language:
+Java, JavaFX, and SQL
+
+## Objective:
+- Create and maintain a project workbook
+  _ Understand the business and system requirement from an informal problem statement
+  _ Compose a use case diagram
+  _ Compose analysis class model
+    _ Entity
+    _ Boundary
+    _ Control objects
+    _ Identify relationships and multiplicities
+  _ Generate database schema
+  _ Create sequence diagram using analysis model 
+- Develop JavaFX prototype for iFinance functionalities
+  _ Login
+  _ Change Password
+  _ Manage User Account Controller
+    _ Create, Modify, and Delete
+  _ iFinance System
+  _ Create database adapter class using DerbyDB SQL statements
+    _ Use Java API
 
 ## Home page and User Login
 ![image](https://github.com/DasolLim/Database_Project/assets/92288227/be1f38ae-1f25-458c-ab8a-048cf7cc64a7)
