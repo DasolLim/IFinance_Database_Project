@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="se2203b.assignments.ifinance.AccountGroupsController">
+   <children>
+      <TreeView fx:id="treeView" layoutX="14.0" layoutY="58.0" prefHeight="326.0" prefWidth="265.0">
+         <contextMenu>
+            <ContextMenu onAction="#showContextMenu">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Add New Group" />
+                  <MenuItem mnemonicParsing="false" text="Edit Group" />
+                  <MenuItem mnemonicParsing="false" text="Delete Group" />
+               </items>
+            </ContextMenu>
+         </contextMenu></TreeView>
+      <Button fx:id="exitBtn" layoutX="293.0" layoutY="359.0" mnemonicParsing="false" onAction="#close" prefHeight="25.0" prefWidth="193.0" text="Exit" />
+      <Label layoutX="134.0" layoutY="20.0" text="Custom Accounts Groups Form">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TitledPane animated="false" layoutX="293.0" layoutY="58.0" prefHeight="290.0" prefWidth="193.0" text="Add or Change Group Name">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TextField fx:id="groupField" layoutX="14.0" layoutY="41.0" prefHeight="25.0" prefWidth="165.0" />
+                  <Label layoutX="14.0" layoutY="14.0" text="Group Name" />
+                  <Button fx:id="saveBtn" layoutX="136.0" layoutY="107.0" mnemonicParsing="false" text="Save" />
+               </children>
+            </AnchorPane>
+         </content>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TitledPane>
+   </children>
+</AnchorPane>

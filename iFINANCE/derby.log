@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Mar 24 00:06:21 EDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-0187-11cb-cd25-00003f5121d0 
+on database directory D:\ECEUWO\Teaching\Winter2023\SE2203b\Assignments\3\iFINANCE\iFinanceDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@533ddba 
+Loaded from file:/D:/ECEUWO/Teaching/Winter2023/SE2203b/Assignments/3/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=19.0.2+7-44
+user.dir=D:\ECEUWO\Teaching\Winter2023\SE2203b\Assignments\3\iFINANCE
+os.name=Windows 11
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
